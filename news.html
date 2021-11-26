@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COS.RED</title>
+
+    <!-- CDN -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          crossorigin="anonymous"
+    />
+    <link
+            rel="stylesheet"
+            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<header class="header">
+    <a href="#">
+        <img class="logo" src="images/logo.png" alt="COS.RED">
+    </a>
+
+    <nav class="header__navigation" aria-label="Main navigation" id="menu">
+        <a href="#" class="header__navigation-item">Home</a>
+        <a href="#" class="header__navigation-item">About us</a>
+        <a href="#" class="header__navigation-item">News</a>
+        <a href="#" class="header__navigation-item">Events</a>
+        <a href="#" class="header__navigation-item">Contacts</a>
+    </nav>
+
+    <button class="hamburger-button" aria-label="Open or close menu" id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</header>
+
+<main class="main">
+    <div class="container">
+        <ol class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumbs__item">
+                News
+            </li>
+        </ol>
+
+        <div class="columns-grid">
+            <div class="columns-grid__main">
+
+                <article class="news-card">
+                    <img src="images/news-card.jpg" alt="" class="news-card__img">
+                    <div class="news-card__body">
+                        <h2 class="news-card__title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </h2>
+                        <div class="news-card__info">
+                            <div class="news-card__info-item">
+                                <img src="images/calendar-icon.png" alt="">
+                                20 Jul 2020
+                            </div>
+                            <div class="news-card__info-divider">/</div>
+                            <div class="news-card__info-item">
+                                <img src="images/comment-icon.png" alt="">
+                                12 comment
+                            </div>
+                        </div>
+
+                        <p class="news-card__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit faucibus dolor pretium, est id.
+                            Lacus, quis ac ultrices dignissim elit. Pharetra faucibus lorem montes, faucibus maecenas
+                            sed in in. Iaculis dignissim lectus enim vitae adipiscing eu eget auctor. Orci nibh purus ut
+                            lacinia sit metus, nullam in.
+                        </p>
+
+                        <div class="news-card__footer">
+                            <div class="news-card__author">
+                                <div class="news-card__author-ava">
+                                    <img src="images/avatar.png" alt="">
+                                </div>
+                                <div class="news-card__author-name">
+                                    by, Mary Lynn
+                                </div>
+                            </div>
+
+                            <button class="news-card__share" type="button">
+                                <span class="sr-only">Share</span>
+                                <img src="images/share-icon.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="images/news-card.jpg" alt="" class="news-card__img">
+                    <div class="news-card__body">
+                        <h2 class="news-card__title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </h2>
+                        <div class="news-card__info">
+                            <div class="news-card__info-item">
+                                <img src="images/calendar-icon.png" alt="">
+                                20 Jul 2020
+                            </div>
+                            <div class="news-card__info-divider">/</div>
+                            <div class="news-card__info-item">
+                                <img src="images/comment-icon.png" alt="">
+                                12 comment
+                            </div>
+                        </div>
+
+                        <p class="news-card__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit faucibus dolor pretium, est id.
+                            Lacus, quis ac ultrices dignissim elit. Pharetra faucibus lorem montes, faucibus maecenas
+                            sed in in. Iaculis dignissim lectus enim vitae adipiscing eu eget auctor. Orci nibh purus ut
+                            lacinia sit metus, nullam in.
+                        </p>
+
+                        <div class="news-card__footer">
+                            <div class="news-card__author">
+                                <div class="news-card__author-ava">
+                                    <img src="images/avatar.png" alt="">
+                                </div>
+                                <div class="news-card__author-name">
+                                    by, Mary Lynn
+                                </div>
+                            </div>
+
+                            <button class="news-card__share" type="button">
+                                <span class="sr-only">Share</span>
+                                <img src="images/share-icon.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="images/news-card.jpg" alt="" class="news-card__img">
+                    <div class="news-card__body">
+                        <h2 class="news-card__title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </h2>
+                        <div class="news-card__info">
+                            <div class="news-card__info-item">
+                                <img src="images/calendar-icon.png" alt="">
+                                20 Jul 2020
+                            </div>
+                            <div class="news-card__info-divider">/</div>
+                            <div class="news-card__info-item">
+                                <img src="images/comment-icon.png" alt="">
+                                12 comment
+                            </div>
+                        </div>
+
+                        <p class="news-card__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit faucibus dolor pretium, est id.
+                            Lacus, quis ac ultrices dignissim elit. Pharetra faucibus lorem montes, faucibus maecenas
+                            sed in in. Iaculis dignissim lectus enim vitae adipiscing eu eget auctor. Orci nibh purus ut
+                            lacinia sit metus, nullam in.
+                        </p>
+
+                        <div class="news-card__footer">
+                            <div class="news-card__author">
+                                <div class="news-card__author-ava">
+                                    <img src="images/avatar.png" alt="">
+                                </div>
+                                <div class="news-card__author-name">
+                                    by, Mary Lynn
+                                </div>
+                            </div>
+
+                            <button class="news-card__share" type="button">
+                                <span class="sr-only">Share</span>
+                                <img src="images/share-icon.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                <article class="news-card">
+                    <img src="images/news-card.jpg" alt="" class="news-card__img">
+                    <div class="news-card__body">
+                        <h2 class="news-card__title">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                        </h2>
+                        <div class="news-card__info">
+                            <div class="news-card__info-item">
+                                <img src="images/calendar-icon.png" alt="">
+                                20 Jul 2020
+                            </div>
+                            <div class="news-card__info-divider">/</div>
+                            <div class="news-card__info-item">
+                                <img src="images/comment-icon.png" alt="">
+                                12 comment
+                            </div>
+                        </div>
+
+                        <p class="news-card__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit faucibus dolor pretium, est id.
+                            Lacus, quis ac ultrices dignissim elit. Pharetra faucibus lorem montes, faucibus maecenas
+                            sed in in. Iaculis dignissim lectus enim vitae adipiscing eu eget auctor. Orci nibh purus ut
+                            lacinia sit metus, nullam in.
+                        </p>
+
+                        <div class="news-card__footer">
+                            <div class="news-card__author">
+                                <div class="news-card__author-ava">
+                                    <img src="images/avatar.png" alt="">
+                                </div>
+                                <div class="news-card__author-name">
+                                    by, Mary Lynn
+                                </div>
+                            </div>
+
+                            <button class="news-card__share" type="button">
+                                <span class="sr-only">Share</span>
+                                <img src="images/share-icon.png" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            <aside class="columns-grid__aside">
+                <article class="box search-card">
+                    <h3 class="subtitle">Search</h3>
+                    <form class="search-card__form">
+                        <input type="search" class="search-card__input" placeholder="Write your text">
+                        <button class="search-card__button" type="submit">
+                            <span class="sr-only">Search</span>
+                            <img src="images/search-red-icon.png" alt="">
+                        </button>
+                    </form>
+                </article>
+
+                <article class="box posts-card">
+                    <h3 class="subtitle">Popular Posts</h3>
+                    <ul class="posts-card__list">
+                        <li class="posts-card__item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="posts-card__item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="posts-card__item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </article>
+                <article class="box categories-card">
+                    <h3 class="subtitle">Categories</h3>
+                    <dl class="categories-card__list">
+                        <div class="categories-card__list-item">
+                            <dt class="categories-card__text categories-card__key"><a href="#">Dating</a></dt>
+                            <dd class="categories-card__text categories-card__value">28</dd>
+                        </div>
+                        <div class="categories-card__list-item">
+                            <dt class="categories-card__text categories-card__key"><a href="#">Sweepstakes</a></dt>
+                            <dd class="categories-card__text categories-card__value">2</dd>
+                        </div>
+                        <div class="categories-card__list-item">
+                            <dt class="categories-card__text categories-card__key"><a href="#">Gaming</a></dt>
+                            <dd class="categories-card__text categories-card__value">4</dd>
+                        </div>
+                        <div class="categories-card__list-item">
+                            <dt class="categories-card__text categories-card__key"><a href="#">Сrypto</a></dt>
+                            <dd class="categories-card__text categories-card__value">16</dd>
+                        </div>
+                        <div class="categories-card__list-item">
+                            <dt class="categories-card__text categories-card__key"><a href="#">Installs</a></dt>
+                            <dd class="categories-card__text categories-card__value">6</dd>
+                        </div>
+                        <div class="categories-card__list-item">
+                            <dt class="categories-card__text categories-card__key"><a href="#">Nutra</a></dt>
+                            <dd class="categories-card__text categories-card__value">18</dd>
+                        </div>
+                        <div class="categories-card__list-item">
+                            <dt class="categories-card__text categories-card__key"><a href="#">Gambling</a></dt>
+                            <dd class="categories-card__text categories-card__value">12</dd>
+                        </div>
+                        <div class="categories-card__list-item">
+                            <dt class="categories-card__text categories-card__key"><a href="#">Betting</a></dt>
+                            <dd class="categories-card__text categories-card__value">4</dd>
+                        </div>
+                    </dl>
+                </article>
+                <article class="box">
+                    <div class="tags">
+                        <h3 class="subtitle">Tags</h3>
+                        <ul class="tags__list">
+                            <li class="tags__item">
+                                <a href="#">Tag 1</a>
+                            </li>
+                            <li class="tags__item">
+                                <a href="#">Tag 2</a>
+                            </li>
+                            <li class="tags__item">
+                                <a href="#">Tag 3 </a>
+                            </li>
+                            <li class="tags__item">
+                                <a href="#">Tag4</a>
+                            </li>
+                            <li class="tags__item">
+                                <a href="#">Tag 5</a>
+                            </li>
+                            <li class="tags__item">
+                                <a href="#">Tag</a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </aside>
+        </div>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer__main">
+        <div class="container">
+            <div class="footer__main-inner">
+                <div class="footer__info">
+                    <a href="#">
+                        <img src="images/logo.png" alt="" class="logo">
+                    </a>
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est pulvinar quam congue consequat,
+                        ullamcorper interdum ut leo odio. Leo neque tellus sit egestas.
+                    </p>
+                    <p class="footer__text">
+                        Lacinia suscipit porttitor at arcu congue vestibulum, pulvinar. Massa nibh nunc sed id morbi
+                        ullamcorper. Augue urna eros, mauris arcu eu pretium amet.
+                    </p>
+                </div>
+                <section class="footer__posts">
+                    <h3 class="footer__title">Recent Posts</h3>
+                    <ul class="footer__posts-list">
+                        <li class="footer__post-item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="footer__post-item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="footer__post-item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer__links">
+                    <h3 class="footer__title">Useful links</h3>
+                    <nav class="footer__links-list">
+                        <a href="#" class="footer__link-item">About Us</a>
+                        <a href="#" class="footer__link-item">News</a>
+                        <a href="#" class="footer__link-item">Upcoming Conferences</a>
+                        <a href="#" class="footer__link-item">Contact Us</a>
+                    </nav>
+                    <ul class="socials-list">
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/telegram-icon.png" alt="Telegram">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/fb-icon.png" alt="Facebook">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/vk-icon.png" alt="VK">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/inst-icon.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/yt-icon.png" alt="Youtube">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/email-icon.png" alt="Email">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="footer__disclaimers">
+        <div class="container">
+            <small class="footer__disclaimers-text footer__disclaimers-text--uppercase">
+                2021. cos.red. All rights reserved
+            </small>
+            <small class="footer__disclaimers-text">
+                <a href="#" class="footer__disclaimers-link">Terms &Condition</a>
+                /
+                <a href="#" class="footer__disclaimers-link">Privacy Policy</a>
+                /
+                <a href="#" class="footer__disclaimers-link">Contact Us</a>
+            </small>
+        </div>
+    </div>
+</footer>
+
+<!-- Javascript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>

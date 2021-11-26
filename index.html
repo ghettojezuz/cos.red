@@ -7,11 +7,6 @@
     <title>COS.RED</title>
 
     <!-- CDN -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap"
-    />
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
           crossorigin="anonymous"
@@ -32,33 +27,19 @@
         <img class="logo" src="images/logo.png" alt="COS.RED">
     </a>
 
-    <div class="header__content">
-        <nav class="header__navigation" aria-label="Main navigation">
-            <a href="#" class="header__navigation-item">Home</a>
-            <a href="#" class="header__navigation-item">About us</a>
-            <a href="#" class="header__navigation-item">News</a>
-            <a href="#" class="header__navigation-item">Events</a>
-            <a href="#" class="header__navigation-item">Contacts</a>
-        </nav>
+    <nav class="header__navigation" aria-label="Main navigation" id="menu">
+        <a href="#" class="header__navigation-item">Home</a>
+        <a href="#" class="header__navigation-item">About us</a>
+        <a href="#" class="header__navigation-item">News</a>
+        <a href="#" class="header__navigation-item">Events</a>
+        <a href="#" class="header__navigation-item">Contacts</a>
+    </nav>
 
-        <div class="header__user-info">
-            <article class="user">
-                <div class="user__avatar">
-                    <img src="images/avatar.png" alt="Your avatar">
-                </div>
-                <div class="user__name">Bryan Smith</div>
-                <svg class="user__arrow" width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M9.70963 11.9571C9.95371 12.2012 10.3494 12.2012 10.5935 11.9571L13.9268 8.62375C14.1709 8.37967 14.1709 7.98394 13.9268 7.73986C13.6828 7.49578 13.287 7.49578 13.043 7.73986L10.1516 10.6313L7.26018 7.73986C7.0161 7.49578 6.62037 7.49578 6.3763 7.73986C6.13222 7.98394 6.13222 8.37967 6.3763 8.62375L9.70963 11.9571Z"/>
-                </svg>
-            </article>
-        </div>
-
-        <button class="hamburger-button" aria-label="Open or close menu">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-    </div>
+    <button class="hamburger-button" aria-label="Open or close menu" id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
 </header>
 
 <main class="main">
@@ -251,7 +232,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -293,7 +274,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -335,7 +316,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -377,7 +358,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -419,7 +400,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -461,7 +442,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -471,6 +452,11 @@
 
             <button class="button button--centered">View all</button>
         </div>
+    </section>
+
+    <!-- Ad section-->
+    <section class="propaganda-section">
+        <p class="propaganda-section__text">AD...</p>
     </section>
 
     <section class="popular-news-section">
@@ -518,7 +504,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -560,7 +546,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -602,7 +588,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -644,7 +630,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -686,7 +672,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -728,7 +714,7 @@
                             </div>
 
                             <button class="news-card__share" type="button">
-                                <span class="sr-only">Поделиться</span>
+                                <span class="sr-only">Share</span>
                                 <img src="images/share-icon.png" alt="">
                             </button>
                         </div>
@@ -852,7 +838,118 @@
 </main>
 
 <footer class="footer">
-
+    <div class="footer__main">
+        <div class="container">
+            <div class="footer__main-inner">
+                <div class="footer__info">
+                    <a href="#">
+                        <img src="images/logo.png" alt="" class="logo">
+                    </a>
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est pulvinar quam congue consequat,
+                        ullamcorper interdum ut leo odio. Leo neque tellus sit egestas.
+                    </p>
+                    <p class="footer__text">
+                        Lacinia suscipit porttitor at arcu congue vestibulum, pulvinar. Massa nibh nunc sed id morbi
+                        ullamcorper. Augue urna eros, mauris arcu eu pretium amet.
+                    </p>
+                </div>
+                <section class="footer__posts">
+                    <h3 class="footer__title">Recent Posts</h3>
+                    <ul class="footer__posts-list">
+                        <li class="footer__post-item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="footer__post-item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="footer__post-item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer__links">
+                    <h3 class="footer__title">Useful links</h3>
+                    <nav class="footer__links-list">
+                        <a href="#" class="footer__link-item">About Us</a>
+                        <a href="#" class="footer__link-item">News</a>
+                        <a href="#" class="footer__link-item">Upcoming Conferences</a>
+                        <a href="#" class="footer__link-item">Contact Us</a>
+                    </nav>
+                    <ul class="socials-list">
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/telegram-icon.png" alt="Telegram">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/fb-icon.png" alt="Facebook">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/vk-icon.png" alt="VK">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/inst-icon.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/yt-icon.png" alt="Youtube">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/email-icon.png" alt="Email">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="footer__disclaimers">
+        <div class="container">
+            <small class="footer__disclaimers-text footer__disclaimers-text--uppercase">
+                2021. cos.red. All rights reserved
+            </small>
+            <small class="footer__disclaimers-text">
+                <a href="#" class="footer__disclaimers-link">Terms &Condition</a>
+                /
+                <a href="#" class="footer__disclaimers-link">Privacy Policy</a>
+                /
+                <a href="#" class="footer__disclaimers-link">Contact Us</a>
+            </small>
+        </div>
+    </div>
 </footer>
 
 <!-- Javascript -->
