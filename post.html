@@ -11,10 +11,6 @@
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
           crossorigin="anonymous"
     />
-    <link
-            rel="stylesheet"
-            href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
 
     <!-- Styles -->
     <link rel="stylesheet" href="css/fonts.css">
@@ -121,10 +117,27 @@
                                 </div>
                             </div>
 
-                            <button class="news-card__share" type="button">
+                            <div class="news-card__share">
                                 <span class="sr-only">Share</span>
-                                <img src="images/share-icon.png" alt="">
-                            </button>
+                                <img src="images/share-icon.svg" alt="">
+                                <ul class="news-card__share-list">
+                                    <li class="news-card__share-list-item">
+                                        <a href="#">
+                                            <img src="images/telegram-white-icon.png" alt="Telegram">
+                                        </a>
+                                    </li>
+                                    <li class="news-card__share-list-item">
+                                        <a href="#">
+                                            <img src="images/vk-white-icon.png" alt="VK">
+                                        </a>
+                                    </li>
+                                    <li class="news-card__share-list-item">
+                                        <a href="#">
+                                            <img src="images/fb-white-icon.png" alt="Facebook">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
 
                         <div class="tags">
@@ -167,6 +180,93 @@
 
                 <section class="comments">
                     <h2 class="comments__title">4 comments</h2>
+                    <section class="comments__thread">
+                        <article class="comment">
+                            <div class="comment__avatar">
+                                <img src="images/avatar.png" alt="">
+                            </div>
+                            <div class="comment__content">
+                                <h2 class="comment__name">Mark Rose</h2>
+                                <p class="comment__time">20 Jul, 2020 at 7:15 am</p>
+                                <p class="comment__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit faucibus dolor
+                                    pretium, est id. Lacus, quis ac ultrices dignissim elit. Pharetra faucibus lorem
+                                    montes.
+                                </p>
+                            </div>
+                        </article>
+                        <div class="comments__children">
+                            <article class="comment">
+                                <div class="comment__avatar">
+                                    <img src="images/avatar.png" alt="">
+                                </div>
+                                <div class="comment__content">
+                                    <h2 class="comment__name">Mark Rose</h2>
+                                    <p class="comment__time">20 Jul, 2020 at 7:15 am</p>
+                                    <p class="comment__text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit faucibus dolor
+                                        pretium, est id. Lacus, quis ac ultrices dignissim elit. Pharetra faucibus lorem
+                                        montes.
+                                    </p>
+                                </div>
+                            </article>
+                            <div class="comments__children">
+                                <article class="comment">
+                                    <div class="comment__avatar">
+                                        <img src="images/avatar.png" alt="">
+                                    </div>
+                                    <div class="comment__content">
+                                        <h2 class="comment__name">Mark Rose</h2>
+                                        <p class="comment__time">20 Jul, 2020 at 7:15 am</p>
+                                        <p class="comment__text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit faucibus dolor
+                                            pretium, est id. Lacus, quis ac ultrices dignissim elit. Pharetra faucibus lorem
+                                            montes.
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="comments__thread">
+                        <article class="comment">
+                            <div class="comment__avatar">
+                                <img src="images/avatar.png" alt="">
+                            </div>
+                            <div class="comment__content">
+                                <h2 class="comment__name">Mark Rose</h2>
+                                <p class="comment__time">20 Jul, 2020 at 7:15 am</p>
+                                <p class="comment__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit faucibus dolor
+                                    pretium, est id. Lacus, quis ac ultrices dignissim elit. Pharetra faucibus lorem
+                                    montes.
+                                </p>
+                            </div>
+                        </article>
+                    </section>
+
+                    <form class="comment-form">
+                        <h2 class="comment-form__title">Leave a comment</h2>
+                        <div class="comment-form__row">
+                            <div class="input">
+                                <label for="comment-author-input" class="sr-only">Author</label>
+                                <input class="input__control" id="comment-author-input" name="author" type="text" placeholder="Author">
+                            </div>
+                            <div class="input">
+                                <label for="comment-email-input" class="sr-only">Email</label>
+                                <input class="input__control" id="comment-email-input" name="author" type="email" placeholder="Email">
+                            </div>
+                            <div class="input">
+                                <label for="comment-website-input" class="sr-only">Website</label>
+                                <input class="input__control" id="comment-website-input" name="author" type="text" placeholder="Website">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <label for="comment-comment-input" class="sr-only">Comment</label>
+                            <textarea class="input__control" id="comment-comment-input" name="author" placeholder="Comment" rows="5"></textarea>
+                        </div>
+                        <button class="button" type="submit">Submit</button>
+                    </form>
                 </section>
             </div>
 
@@ -392,7 +492,7 @@
                 2021. cos.red. All rights reserved
             </small>
             <small class="footer__disclaimers-text">
-                <a href="#" class="footer__disclaimers-link">Terms &Condition</a>
+                <a href="#" class="footer__disclaimers-link">Terms & Condition</a>
                 /
                 <a href="#" class="footer__disclaimers-link">Privacy Policy</a>
                 /

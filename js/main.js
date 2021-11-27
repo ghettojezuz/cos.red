@@ -46,3 +46,25 @@ if (swipersUpcoming.length > 0) {
     });
 }
 
+const swipersReviewClass = '.swiper-review';
+const swipersReview = document.querySelectorAll(swipersReviewClass);
+if (swipersReview.length > 0) {
+    const upcomingSlider = new Swiper(swipersReviewClass, {
+        slidesPerView: 1,
+        navigation: {
+            nextEl: '.swiper-review-button-next',
+            prevEl: '.swiper-review-button-prev',
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 20
+            },
+            1280: {
+                slidesPerView: 3,
+                spaceBetween: 36
+            }
+        }
+    });
+}
+

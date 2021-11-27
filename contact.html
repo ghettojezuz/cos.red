@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COS.RED</title>
+
+    <!-- CDN -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          crossorigin="anonymous"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<header class="header">
+    <a href="#">
+        <img class="logo" src="images/logo.png" alt="COS.RED">
+    </a>
+
+    <nav class="header__navigation" aria-label="Main navigation" id="menu">
+        <a href="#" class="header__navigation-item">Home</a>
+        <a href="#" class="header__navigation-item">About us</a>
+        <a href="#" class="header__navigation-item">News</a>
+        <a href="#" class="header__navigation-item">Events</a>
+        <a href="#" class="header__navigation-item">Contacts</a>
+    </nav>
+
+    <button class="hamburger-button" aria-label="Open or close menu" id="menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+</header>
+
+<main class="main">
+    <div class="container">
+        <ol class="breadcrumbs">
+            <li class="breadcrumbs__item">
+                <a href="#">Home</a>
+            </li>
+            <li class="breadcrumbs__item">
+                Contact
+            </li>
+        </ol>
+
+        <section class="contact">
+            <div class="contact__grid">
+                <section class="contact__info">
+                    <h2 class="contact__title">Contact info</h2>
+                    <ul class="contact__info-list">
+                        <li class="contact__info-list-item">
+                            <img src="images/mail-icon.png" alt="">
+                            <dl class="contact__info-content">
+                                <dt class="contact__info-key">Phone number</dt>
+                                <dd class="contact__info-value">
+                                    <a href="tel:+610370105611">(+61) 0370 105 611</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="contact__info-list-item">
+                            <img src="images/phone-icon.png" alt="">
+                            <dl class="contact__info-content">
+                                <dt class="contact__info-key">Email address</dt>
+                                <dd class="contact__info-value">
+                                    <a href="mailto:cos.red@gmail.com">cos.red@gmail.com</a>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li class="contact__info-list-item">
+                            <img src="images/share-icon.png" alt="">
+                            <dl class="contact__info-content">
+                                <dt class="contact__info-key">Social netwoks</dt>
+                                <dd class="contact__info-value">
+                                    <ul class="socials-list">
+                                        <li class="socials-list__item">
+                                            <a href="#">
+                                                <img src="images/telegram-white-icon.png" alt="Telegram">
+                                            </a>
+                                        </li>
+                                        <li class="socials-list__item">
+                                            <a href="#">
+                                                <img src="images/fb-white-icon.png" alt="Facebook">
+                                            </a>
+                                        </li>
+                                        <li class="socials-list__item">
+                                            <a href="#">
+                                                <img src="images/vk-white-icon.png" alt="VK">
+                                            </a>
+                                        </li>
+                                        <li class="socials-list__item">
+                                            <a href="#">
+                                                <img src="images/inst-white-icon.png" alt="Instagram">
+                                            </a>
+                                        </li>
+                                        <li class="socials-list__item">
+                                            <a href="#">
+                                                <img src="images/yt-white-icon.png" alt="Youtube">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </section>
+                <section class="contact__feedback">
+                    <h2 class="contact__title">Get in touch</h2>
+                    <p class="contact__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit faucibus dolor pretium, est id.
+                        Lacus, quis ac ultrices dignissim elit. Pharetra faucibus lorem montes
+                    </p>
+                    <form class="contact__form">
+                        <div class="contact__form-row">
+                            <div class="input">
+                                <label for="contact-name-input" class="sr-only">Name</label>
+                                <input class="input__control" id="contact-name-input" name="name" type="text" placeholder="Name">
+                            </div>
+                            <div class="input">
+                                <label for="contact-email-input" class="sr-only">Email</label>
+                                <input class="input__control" id="contact-email-input" name="email" type="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="contact__form-row">
+                            <div class="input">
+                                <label for="contact-phone-input" class="sr-only">Phone</label>
+                                <input class="input__control" id="contact-phone-input" name="phone" type="tel" placeholder="Phone">
+                            </div>
+                            <div class="input">
+                                <label for="contact-subject-input" class="sr-only">Subject</label>
+                                <input class="input__control" id="contact-subject-input" name="subject" type="text" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="input">
+                            <label for="contact-message-input" class="sr-only">Message</label>
+                            <textarea class="input__control" id="contact-message-input" name="message" placeholder="Message" rows="5"></textarea>
+                        </div>
+                        <button class="button button--full-width" type="submit">Submit now</button>
+                    </form>
+                </section>
+            </div>
+        </section>
+
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="footer__main">
+        <div class="container">
+            <div class="footer__main-inner">
+                <div class="footer__info">
+                    <a href="#">
+                        <img src="images/logo.png" alt="" class="logo">
+                    </a>
+                    <p class="footer__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Est pulvinar quam congue consequat,
+                        ullamcorper interdum ut leo odio. Leo neque tellus sit egestas.
+                    </p>
+                    <p class="footer__text">
+                        Lacinia suscipit porttitor at arcu congue vestibulum, pulvinar. Massa nibh nunc sed id morbi
+                        ullamcorper. Augue urna eros, mauris arcu eu pretium amet.
+                    </p>
+                </div>
+                <section class="footer__posts">
+                    <h3 class="footer__title">Recent Posts</h3>
+                    <ul class="footer__posts-list">
+                        <li class="footer__post-item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="footer__post-item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                        <li class="footer__post-item">
+                            <article class="recent-post">
+                                <div class="recent-post__img">
+                                    <img src="images/news-card.jpg" alt="">
+                                </div>
+                                <div class="recent-post__content">
+                                    <h5 class="recent-post__title"><a href="#">Lorem ipsum dolor sit amet</a></h5>
+                                    <p class="recent-post__text">20 Jul / 10 comment</p>
+                                </div>
+                            </article>
+                        </li>
+                    </ul>
+                </section>
+                <section class="footer__links">
+                    <h3 class="footer__title">Useful links</h3>
+                    <nav class="footer__links-list">
+                        <a href="#" class="footer__link-item">About Us</a>
+                        <a href="#" class="footer__link-item">News</a>
+                        <a href="#" class="footer__link-item">Upcoming Conferences</a>
+                        <a href="#" class="footer__link-item">Contact Us</a>
+                    </nav>
+                    <ul class="socials-list">
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/telegram-icon.png" alt="Telegram">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/fb-icon.png" alt="Facebook">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/vk-icon.png" alt="VK">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/inst-icon.png" alt="Instagram">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/yt-icon.png" alt="Youtube">
+                            </a>
+                        </li>
+                        <li class="socials-list__item">
+                            <a href="#">
+                                <img src="images/email-icon.png" alt="Email">
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="footer__disclaimers">
+        <div class="container">
+            <small class="footer__disclaimers-text footer__disclaimers-text--uppercase">
+                2021. cos.red. All rights reserved
+            </small>
+            <small class="footer__disclaimers-text">
+                <a href="#" class="footer__disclaimers-link">Terms & Condition</a>
+                /
+                <a href="#" class="footer__disclaimers-link">Privacy Policy</a>
+                /
+                <a href="#" class="footer__disclaimers-link">Contact Us</a>
+            </small>
+        </div>
+    </div>
+</footer>
+
+<!-- Javascript -->
+<script src="js/main.js"></script>
+</body>
+
+</html>
