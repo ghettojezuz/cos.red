@@ -51,6 +51,8 @@ const swipersReview = document.querySelectorAll(swipersReviewClass);
 if (swipersReview.length > 0) {
     const upcomingSlider = new Swiper(swipersReviewClass, {
         slidesPerView: 1,
+        centeredSlides: true,
+        initialSlide: 1,
         navigation: {
             nextEl: '.swiper-review-button-next',
             prevEl: '.swiper-review-button-prev',
